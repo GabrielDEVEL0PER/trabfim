@@ -4,7 +4,7 @@ import sys
 import qrcode
 
 def gerar_qrcode(numero_mesa):
-    url = f"http://localhost:5000/mesa/{numero_mesa}"
+    url = f"http://https://2589a904-1b1e-4c1d-b52f-a6fe3b8b00c2-00-2qfer9kbtjjut.kirk.replit.dev//mesa/{numero_mesa}"
     qr = qrcode.make(url)
     qr.save(f"qrcode_mesa_{numero_mesa}.png")
 
